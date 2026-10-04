@@ -1,0 +1,27 @@
+{
+  "name": "gmail-ai-reply-test",
+  "version": "1.0.0",
+  "description": "Gmail問い合わせメールのAI返信下書き作成テスト",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "dotenv": "^17.4.2",
+    "googleapis": "^173.0.0",
+    "html-to-text": "^10.0.0",
+    "openai": "^6.44.0"
+  },
+  "devDependencies": {
+    "@types/html-to-text": "^9.0.4",
+    "@types/node": "^25.9.3",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
+}
